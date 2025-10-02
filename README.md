@@ -121,7 +121,7 @@ TreeMap<String,Integer> map = new TreeMap<>(); // Sorted by key (ASC)
 TreeSet<Integer> set = new TreeSet<>();        // Sorted (ASC)
 ```
 
-👉 For descending:
+ For descending:
 
 ```java
 TreeMap<String,Integer> map = new TreeMap<>(Collections.reverseOrder());
