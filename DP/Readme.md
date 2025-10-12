@@ -37,4 +37,4 @@ Matrix Multiplication
 Minimum Partioning
 </br>
 Minimum Array Jumps
-## Practice Questions(H.W)
+## Practice Questions (H.W)
