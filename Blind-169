@@ -17,3 +17,20 @@ class Solution {
         return ans;
     }
 }
+#2
+class Solution {
+    public int maxProfit(int[] prices) {
+       int prof=0;
+       int buy=prices[0];
+       int n=prices.length;
+       for(int i=1;i<n;i++){
+        int curr=prices[i];
+        if(curr>buy){
+            prof=Math.max(prof,curr-buy);
+        }else{
+            buy=curr;
+        }
+       }
+       return prof; 
+    }
+}
